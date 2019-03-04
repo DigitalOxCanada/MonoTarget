@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{8A8056D3-DA8E-4BDD-8D7F-132297533BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2", "Day2\Day2.csproj", "{46C81F19-721B-47D6-84C2-AF8DEB18A3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", "{5DAB8BAD-A780-4CCA-8944-FC5966D6A66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4", "Day4\Day4.csproj", "{5257E287-846D-4561-90DF-D86F9616EE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day5", "Day5\Day5.csproj", "{3AD62F43-5A82-43B2-BF15-BB980C658058}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5D026E78-48BB-49E4-BE39-EF3713E01D51}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A8056D3-DA8E-4BDD-8D7F-132297533BBA}.Debug|x86.ActiveCfg = Debug|x86
+		{8A8056D3-DA8E-4BDD-8D7F-132297533BBA}.Debug|x86.Build.0 = Debug|x86
+		{8A8056D3-DA8E-4BDD-8D7F-132297533BBA}.Release|x86.ActiveCfg = Release|x86
+		{8A8056D3-DA8E-4BDD-8D7F-132297533BBA}.Release|x86.Build.0 = Release|x86
+		{46C81F19-721B-47D6-84C2-AF8DEB18A3C9}.Debug|x86.ActiveCfg = Debug|x86
+		{46C81F19-721B-47D6-84C2-AF8DEB18A3C9}.Debug|x86.Build.0 = Debug|x86
+		{46C81F19-721B-47D6-84C2-AF8DEB18A3C9}.Release|x86.ActiveCfg = Release|x86
+		{46C81F19-721B-47D6-84C2-AF8DEB18A3C9}.Release|x86.Build.0 = Release|x86
+		{5DAB8BAD-A780-4CCA-8944-FC5966D6A66C}.Debug|x86.ActiveCfg = Debug|x86
+		{5DAB8BAD-A780-4CCA-8944-FC5966D6A66C}.Debug|x86.Build.0 = Debug|x86
+		{5DAB8BAD-A780-4CCA-8944-FC5966D6A66C}.Release|x86.ActiveCfg = Release|x86
+		{5DAB8BAD-A780-4CCA-8944-FC5966D6A66C}.Release|x86.Build.0 = Release|x86
+		{5257E287-846D-4561-90DF-D86F9616EE50}.Debug|x86.ActiveCfg = Debug|x86
+		{5257E287-846D-4561-90DF-D86F9616EE50}.Debug|x86.Build.0 = Debug|x86
+		{5257E287-846D-4561-90DF-D86F9616EE50}.Release|x86.ActiveCfg = Release|x86
+		{5257E287-846D-4561-90DF-D86F9616EE50}.Release|x86.Build.0 = Release|x86
+		{3AD62F43-5A82-43B2-BF15-BB980C658058}.Debug|x86.ActiveCfg = Debug|x86
+		{3AD62F43-5A82-43B2-BF15-BB980C658058}.Debug|x86.Build.0 = Debug|x86
+		{3AD62F43-5A82-43B2-BF15-BB980C658058}.Release|x86.ActiveCfg = Release|x86
+		{3AD62F43-5A82-43B2-BF15-BB980C658058}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79C36595-56BD-4DE0-A36F-3EC585255D09}
+	EndGlobalSection
+EndGlobal
