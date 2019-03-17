@@ -38,13 +38,21 @@ namespace MonoTarget
 
         public void SetMasterVolume(float v)
         {
+            if (v < 0.0f || v > 1.0f)
+                throw new ArgumentOutOfRangeException();
+
+            if (MasterVolume == v)
+                return;
+
             MasterVolume = v;
             //overrides sound and music volume
             MediaPlayer.Volume = v;
         }
 
-        public void PlaySound(string nameOfSound, float volume)
+        public void PlaySound(string nameOfSound, float volume = 1.0f)
         {
+            if (string.IsNullOrEmpty(nameOfSound)) return;
+
             var newvol = Math.Min(volume, SoundVolume);
             newvol = Math.Min(newvol, MasterVolume);
 
@@ -53,11 +61,12 @@ namespace MonoTarget
             s.Volume = newvol;
             s.Play();
         }
-        public void PlayMusic(string nameOfSong, float volume)
+        public void PlayMusic(string nameOfSong, float volume = 1.0f)
         {
             var newvol = Math.Min(volume, SoundVolume);
             newvol = Math.Min(newvol, MasterVolume);
 
+            MediaPlayer.Volume = MasterVolume;
             MediaPlayer.Play(MusicLibrary[nameOfSong]);
         }
 

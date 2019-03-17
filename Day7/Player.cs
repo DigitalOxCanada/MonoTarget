@@ -23,10 +23,9 @@ namespace MonoTarget
             Score = 1000;
         }
 
-        public SoundEffect GunSFX;
-        public SoundEffect GunEmpty;
-        public SoundEffect GunReload;
-        SoundEffectInstance instance;
+        public string _gunshotsound;
+        private string _gunreloadsound;
+        private string _gunemptysound;
 
         public void Initialize(Game1 game, string textureName, string gunshot = null, string gunempty = null, string gunreload = null)
         {
@@ -34,23 +33,9 @@ namespace MonoTarget
             AmmoCount = 6;
             HealthCount = 3;
 
-            if (gunshot != null)
-            {
-                GunSFX = game.SoundManager.SoundLibrary[gunshot];
-                if (GunSFX != null)
-                {
-                    instance = GunSFX.CreateInstance();
-                    instance.IsLooped = false;
-                }
-            }
-            if (gunempty != null)
-            {
-                GunEmpty = game.SoundManager.SoundLibrary[gunempty];
-            }
-            if(gunreload!=null)
-            {
-                GunReload = game.SoundManager.SoundLibrary[gunreload];
-            }
+            _gunshotsound = gunshot;
+            _gunemptysound = gunempty;
+            _gunreloadsound = gunreload;
         }
 
         public override void Update(GameTime gameTime)
@@ -90,20 +75,20 @@ namespace MonoTarget
                             pan = Math.Min(1.0f, deltax / half);
                         }
 
-                        GunSFX.Play(1.0f, 0.0f, pan); // 0.1f, 0.0f, 0.0f);
+                        this._game.SoundManager.PlaySound(_gunshotsound);
                     }
                     else
                     {
                         if (!GunReloading)
                         {
                             //GUN is empty so play a gun empty sound here
-                            GunEmpty.Play(1.0f, 0.0f, 0.0f);
+                            this._game.SoundManager.PlaySound(_gunemptysound);
                         }
                         else
                         {
                             Score -= 5;
                             AmmoCount = 6;
-                            GunReload.Play(1.0f, 0.0f, 0.0f);
+                            this._game.SoundManager.PlaySound(_gunreloadsound);
                             GunReloading = false;
                         }
                     }
