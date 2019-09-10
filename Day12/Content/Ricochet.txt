@@ -1,0 +1,14 @@
+#
+# Sprite sheet data for MonoGame.
+#
+# To learn how to import these sprites into your MonoGame project visit:
+# https://www.codeandweb.com/texturepacker/monogame
+#
+# Sprite sheet: Ricochet.png (224 x 52)
+# $TexturePacker:SmartUpdate:66cd11f546353c077071782e99fd782c:804b3aaf6dbae1709cd4f8214dcfcfcc:307d41d1ade8cc6c66b824d21097c216$
+#
+
+0001;0;184;1;39;30;64;48;0.5;0.5
+0002;0;130;1;52;41;64;48;0.5;0.5
+0003;0;67;1;61;47;64;48;0.5;0.5
+0004;0;1;1;64;48;64;48;0.5;0.5
