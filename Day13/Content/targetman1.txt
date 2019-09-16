@@ -1,0 +1,7 @@
+# frame, 0, Location (top left X,Y), Trim (width,height), Rotation (width, height), Pivot Point (x,y float)
+
+0001;0;0;0;300;446;300;446;0;0
+0002;0;300;0;300;446;300;446;0;0
+0003;0;600;0;300;446;300;446;0;0
+0004;0;900;0;300;446;300;446;0;0
+
