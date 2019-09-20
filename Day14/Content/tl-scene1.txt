@@ -1,0 +1,107 @@
+﻿[
+	{
+		"time_offset" : 3,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 5,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 6,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 9,
+		"obj_type" : "enemy",
+		"lifetime" : 2.5,
+	},
+	{
+		"time_offset" : 9,
+		"obj_type" : "fx",
+		"obj_subtype" : "thunder"
+	},
+	{
+		"time_offset" : 9.5,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 11,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 12.5,
+		"obj_type" : "enemy",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 13.5,
+		"obj_type" : "enemy",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 15,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 20,
+		"obj_type" : "enemy",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 21,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 23,
+		"obj_type" : "enemy",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 23.5,
+		"obj_type" : "ammo",
+		"lifetime" : 5,
+	},
+	{
+		"time_offset" : 26,
+		"obj_type" : "enemy",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 29,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 31,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 31.5,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 32,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 33,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	},
+	{
+		"time_offset" : 34,
+		"obj_type" : "target",
+		"lifetime" : 3,
+	}
+]
