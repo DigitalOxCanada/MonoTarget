@@ -75,6 +75,7 @@ namespace GameStateManagement
             }
             else
             {
+                ScreenManager.PracticeMode = false;
                 ScreenManager.SoundManager.PlaySound("MenuMove");
                 ScreenManager.AddScreen(new StartGameOptionsScreen(), e.PlayerIndex);
                 //ScreenManager.SoundManager.StopAllSounds();
